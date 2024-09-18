@@ -1,0 +1,126 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header, section, footer, aside, nav, article, figcaption {
+    display: block;
+}
+
+.page {
+    background-color: #EDF2F4;
+    width: 95%;
+    height: auto;
+    margin: 2% 2% 2% 2%;
+}
+
+header {
+    background-color: #D80032;
+}
+
+nav {
+    background-color: #EF233C;
+}
+
+nav ul li {
+    font-size: x-large;
+    display: inline;
+    margin-right: 1em;
+}
+
+section {
+    width: 60%;
+}
+
+footer {
+    background-color: #8D99AE;
+}
+h1{
+    font-size: x-large;
+    color: #2B2D42;
+    text-transform: uppercase;
+    border-bottom: 0.1em solid #2B2D42 ;
+}
+
+h2 {
+    font-size: medium;
+    color: #8D99AE;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    margin-top: 0.1rem;
+    padding: 0, 1em, 0, 1em;
+    border-color: #EDF2F4;
+    border: 2rem;
+    border-collapse: collapse;
+    box-shadow: 0.5rem;
+}
+
+form div {
+    margin: 0.2rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+input {
+    font-size: medium;
+    width: 20%;
+    display: flexbox;
+    padding: 0.1rem 0.2rem 0.2rem 0.5rem;
+}
+
+button {
+    margin-left: 90%;
+}
+
+textarea {
+    width: 80%;
+}
+
+th, td {
+    padding: 0.1em 0.5em 0.1em 0.5em;
+}
+
+figcaption {
+    background-color: #EF233C;
+    font-size: x-large;    
+    margin: 0 0 0.3em 0;
+    padding-left: 0.3em;
+    border-bottom: 0.1em solid #2B2D42;
+}
+
+th {
+    background-color: #8D99AE;
+    text-align: left;
+    font-size: large;
+    color: #EDF2F4;
+    border-bottom: 0.1em groove#2B2D42;
+    
+}
+
+td {
+    font-size: medium;
+}
+
+aside{
+    width: 40%;
+    float: right;
+}
+
+
+
+
+
+.even {
+    background-color: white;
+}
+
+
+
+.title {
+    float: left;
+    width: 10%;
+    text-align: right;
+    padding-right: 2rem;
+}
